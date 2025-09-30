@@ -1,4 +1,7 @@
 <script>
+  console.log('[custom.js] loaded');
+if (window.unlayer) console.log('[custom.js] unlayer present');
+
 // 1) Register (or curate) the fonts you want to expose.
 //    Tip: keep this list curated (~20–60) for performance; you can still search it.
 const CUSTOM_FONTS = [
